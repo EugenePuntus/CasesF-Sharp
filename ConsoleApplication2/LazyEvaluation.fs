@@ -26,3 +26,19 @@ let rec allFilesUnder basePath =
         for subdir in Directory.GetDirectories(basePath) do            
             yield! allFilesUnder subdir    
     }
+
+let files = allFilesUnder "../"
+files |> Seq.iter (printfn "%s");;
+
+printfn "Вычисление Фибоначи:"
+let numberFibUnder100 (a,b) =
+    if a+b > 100 then
+        None
+    else
+        let NextValue = a + b
+        Some(NextValue, (NextValue, a));;
+
+let fibSeq = Seq.unfold numberFibUnder100 (0,1);;
+fibSeq |> Seq.iter (printfn "%d");;
+
+Seq.fold (+) 0 <| seq {2..48}

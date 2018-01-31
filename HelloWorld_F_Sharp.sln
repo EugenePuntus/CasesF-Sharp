@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter3_FunctionalPrograming", "ConsoleApplication2\Chapter3_FunctionalPrograming.fsproj", "{DE025FEB-C4DA-4451-B586-776AA08B88B0}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{280FA1A4-633C-4671-956D-61E4597D46B5}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Library1", "Library1\Library1.fsproj", "{CA0AA090-4573-4834-B957-5878D2E1D52E}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Chapter4_ImperativeProgramming", "Chapter4_ImperativeProgramming\Chapter4_ImperativeProgramming.fsproj", "{9E08B17C-32DF-4BE6-ADC8-23F104718811}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,9 +35,16 @@ Global
 		{CA0AA090-4573-4834-B957-5878D2E1D52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA0AA090-4573-4834-B957-5878D2E1D52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA0AA090-4573-4834-B957-5878D2E1D52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E08B17C-32DF-4BE6-ADC8-23F104718811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E08B17C-32DF-4BE6-ADC8-23F104718811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E08B17C-32DF-4BE6-ADC8-23F104718811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E08B17C-32DF-4BE6-ADC8-23F104718811}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054EC2FF-AB8D-4F6B-92E7-10C220604F7B}
 	EndGlobalSection
 	GlobalSection(Performance) = preSolution
 		HasPerformanceSessions = true
